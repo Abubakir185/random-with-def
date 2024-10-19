@@ -3,8 +3,8 @@ import random
 def raqamni_top(start, stop):
     random_son = random.randint(start, stop)
     urinishlar_soni = 0
-    
-    while son != random_son:
+   
+    while True:
         son = int(input(f"Son kiriting ({start} - {stop}) : "))
          urinishlar_soni += 1
         if son < random_son:
