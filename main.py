@@ -4,10 +4,6 @@ def raqamni_top(start, stop):
     random_son = random.randint(start, stop)
     urinishlar_soni = 0
     
-    son = int(input(f"{start} va {stop} oraligidagi taxminiy son kiriting: "))
-    urinishlar_soni += 1
-    
-
     while son != random_son:
         son = int(input(f"Son kiriting ({start} - {stop}) : "))
          urinishlar_soni += 1
