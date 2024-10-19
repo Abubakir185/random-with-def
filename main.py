@@ -5,32 +5,21 @@ def raqamni_top(start, stop):
     urinishlar_soni = 0
     
     son = int(input(f"{start} va {stop} oraligidagi taxminiy son kiriting: "))
-
-    if son < random_son:
-        print("Kiritilgan son kichik.")
-    elif son > random_son:
-        print("Kiritilgan son katta.")
-    elif son == random_son:
-        print("Yutingiz!")
-        print(f"Urinishlar soni {urinishlar_soni}ta")
-
-    if son != random_son:
-        urinishlar_soni += 1
+    urinishlar_soni += 1
     
 
     while son != random_son:
-        
-        if son != random_son:
-            urinishlar_soni += 1
-
-        son = int(input("Yana urinib koring: "))
+        son = int(input(f"Son kiriting ({start} - {stop}) : "))
+         urinishlar_soni += 1
         if son < random_son:
             print("Kiritilgan son kichik.")
         elif son > random_son:
             print("Kiritilgan son katta.")
-        elif son == random_son:
+        elif:
             print("Yutingiz!")
-            print(f"Urinishlar soni {urinishlar_soni}ta")
+            return urinishlar_soni
+           
 
 
-raqamni_top(1, 100)
+taxminlar soni = raqamni_top(1, 100)
+print(f"Taxminlar soni: {inp_son}"
