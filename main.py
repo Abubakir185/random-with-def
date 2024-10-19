@@ -18,4 +18,4 @@ def raqamni_top(start, stop):
 
 
 taxminlar soni = raqamni_top(1, 100)
-print(f"Taxminlar soni: {inp_son}"
+print(f"Taxminlar soni: {taxminlar son}"
