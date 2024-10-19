@@ -11,11 +11,11 @@ def raqamni_top(start, stop):
             print("Kiritilgan son kichik.")
         elif son > random_son:
             print("Kiritilgan son katta.")
-        elif:
+        else:
             print("Yutingiz!")
             return urinishlar_soni
            
 
 
-taxminlar soni = raqamni_top(1, 100)
-print(f"Taxminlar soni: {taxminlar son}"
+taxminlar_soni = raqamni_top(1, 100)
+print(f"Taxminlar soni: {taxminlar_soni}")
